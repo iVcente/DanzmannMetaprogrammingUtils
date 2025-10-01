@@ -1,15 +1,15 @@
 // Copyright (C) 2025 Vicente Danzmann. All Rights Reserved.
 
-#include "DanzmannPlugin.h"
+#include "DanzmannMetaprogrammingUtils.h"
 
-#define LOCTEXT_NAMESPACE "FDanzmannPluginModule"
+#define LOCTEXT_NAMESPACE "FDanzmannMetaprogrammingUtilsModule"
 
-void FDanzmannPluginModule::StartupModule()
+void FDanzmannMetaprogrammingUtilsModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FDanzmannPluginModule::ShutdownModule()
+void FDanzmannMetaprogrammingUtilsModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -17,4 +17,4 @@ void FDanzmannPluginModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FDanzmannPluginModule, DanzmannPlugin)
+IMPLEMENT_MODULE(FDanzmannMetaprogrammingUtilsModule, DanzmannMetaprogrammingUtils)

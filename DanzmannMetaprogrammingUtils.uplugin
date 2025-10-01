@@ -1,13 +1,13 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.1",
-	"FriendlyName": "DanzmannPlugin",
-	"Description": "A description for the plugin.",
+	"VersionName": "1.0",
+	"FriendlyName": "DanzmannMetaprogrammingUtils",
+	"Description": "A collection of useful type traits and constexpr functions for writing templates.",
 	"Category": "Danzmann",
 	"CreatedBy": "Vicente Danzmann",
 	"CreatedByURL": "https://github.com/iVcente",
-	"DocsURL": "https://github.com/iVcente/DanzmannPlugin/blob/main/README.md",
+	"DocsURL": "https://github.com/iVcente/DanzmannMetaprogrammingUtils/blob/main/README.md",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": false,
@@ -16,15 +16,9 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "DanzmannPlugin",
+			"Name": "DanzmannMetaprogrammingUtils",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "EnhancedInput",
-			"Enabled": true
 		}
 	]
 }

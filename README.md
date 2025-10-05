@@ -2,6 +2,8 @@
 A collection of useful type traits and `constexpr` functions for writing templates. They help on creating asserts that are validated at compile-time.
 
 ## Usage Example
+> Make sure you have added the `DanzmannMetaprogrammingUtils` module to your project's `Build.cs` file. Also, enable `DanzmannMetaprogrammingUtils` in your `.uproject` file.
+
 Given the following function below with `T` as a templated parameter. Suppose that `T` should either be a raw pointer, `TSoftObjectPtr` or a `TSoftClassPtr` -- and a class derived from `UObject`. You can guarantee that the function is being called correctly by creating an assert and calling the respective `constexpr` functions. These functions use internally type traits in their implementations.
 
 ```cpp
